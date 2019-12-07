@@ -1,0 +1,3 @@
+# README
+
+todo-list practice with Rails, React, webpack, docker, typescript...
