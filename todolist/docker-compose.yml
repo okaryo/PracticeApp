@@ -28,7 +28,7 @@ services:
       - 8080:8080
     volumes:
       - ./public:/var/www/public
-      - ./client:/var/www/client
+      - ./frontend:/var/www/frontend
     command: >
       yarn run start
 volumes:

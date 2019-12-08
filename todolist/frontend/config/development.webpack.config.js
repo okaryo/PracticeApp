@@ -3,12 +3,12 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: 'development',
-  context: path.join(__dirname, '/../../client/src'),
+  context: path.join(__dirname, '/../../frontend'),
   entry: {
-    index: './javascript/index.js'
+    index: './src/javascript/*'
   },
   output: {
-    path: path.join(__dirname, '../../public/assets'),
+    path: path.join(__dirname, '../public/dist'),
     filename: 'index.js',
     publicPath: 'http://localhost:8080/assets/'
   },
